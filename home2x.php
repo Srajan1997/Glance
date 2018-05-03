@@ -1,7 +1,7 @@
 <html>
 <TITLE>GLANCE > Home</TITLE>
 <?php
-$conn = mysqli_connect('localhost','id5487326_12344747','12344747','id5487326_blogdatabase');
+$conn = mysqli_connect('LOGIN CREDENTIALS');
 if($conn)
 {
 	if(isset($_POST["submit"]))
